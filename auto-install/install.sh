@@ -4,7 +4,7 @@
 
 piguardGitUrl="https://github.com/orazioedoardo/pi-guard.git"
 
-WG_SNAPSHOT="0.0.20190123"
+WG_SNAPSHOT="0.0.20190702"
 WG_SOURCE="https://git.zx2c4.com/WireGuard/snapshot/WireGuard-${WG_SNAPSHOT}.tar.xz"
 WG_PATH="/etc/wireguard"
 
@@ -15,7 +15,7 @@ PKG_SOURCES="/etc/apt/sources.list"
 dhcpcdFile="/etc/dhcpcd.conf"
 setupVars="/etc/pi-guard/setupVars.conf"
 
-UNATTUPG_RELEASE="1.9"
+UNATTUPG_RELEASE="1.11.2"
 UNATTUPG_CONFIG="https://github.com/mvo5/unattended-upgrades/archive/${UNATTUPG_RELEASE}.tar.gz"
 
 #PIGUARD_DEPS=(raspberrypi-kernel-headers libmnl-dev libelf-dev build-essential pkg-config git qrencode tar wget grep dnsutils whiptail net-tools xz-utils)
