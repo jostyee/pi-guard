@@ -15,7 +15,7 @@ PKG_SOURCES="/etc/apt/sources.list"
 dhcpcdFile="/etc/dhcpcd.conf"
 setupVars="/etc/pi-guard/setupVars.conf"
 
-UNATTUPG_RELEASE="1.11.2"
+UNATTUPG_RELEASE="1.13"
 UNATTUPG_CONFIG="https://github.com/mvo5/unattended-upgrades/archive/${UNATTUPG_RELEASE}.tar.gz"
 
 #PIGUARD_DEPS=(raspberrypi-kernel-headers libmnl-dev libelf-dev build-essential pkg-config git qrencode tar wget grep dnsutils whiptail net-tools xz-utils)
