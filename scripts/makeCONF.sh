@@ -101,7 +101,7 @@ echo "[Peer]
 PublicKey = $(cat keys/server_pub)
 PresharedKey = $(cat keys/psk)
 Endpoint = ${PUBLICDNS}:${PORT}
-AllowedIPs = 0.0.0.0/0" >> "configs/${CLIENT_NAME}.conf"
+AllowedIPs = 0.0.0.0/0, ::0/0" >> "configs/${CLIENT_NAME}.conf"
 echo "::: Client config generated"
 
 echo "# begin ${CLIENT_NAME}
